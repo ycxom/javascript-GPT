@@ -1,0 +1,5 @@
+{
+  apiKey: 'sk-xxxxxx',
+  endpoint: 'https://xxxxxx/v1/chat/completions',
+  model: 'gpt-4o',
+}

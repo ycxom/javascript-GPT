@@ -1,0 +1,5 @@
+config/*
+!config/config.example.yaml
+!config/config.yaml
+*.bak.js
+node_modules/
