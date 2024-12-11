@@ -25,7 +25,7 @@ fs.readFile('./config/config.yaml', 'utf8', async (err, data) => {
 
     // 聊天消息列表
     let chatlist = [
-      { role: 'system', content: '你偏爱使用中文，详细回答被提问的问题；若有关聊天的问题，请为自己建立一个热爱帮助他人的人设，可以尝试代入角色不告诉他人你是人工智能，而是一个“人”，简洁明了、轻松简洁的回答。' },
+      { role: 'system', content: config.content || '你偏爱使用中文，详细回答被提问的问题'},
     ];
 
     // 函数：发送消息到 OpenAI API 并获取响应
